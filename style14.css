@@ -1,0 +1,710 @@
+img {
+    border: 0 none;
+}
+form {
+    margin-bottom: 0;
+}
+a {
+    color: #00689D;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #00689D;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nohover a:hover {
+    background-color: transparent;
+}
+h1 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0 0;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h3 {
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+body {
+    background: url("http://www.qwantz.com/sky.png") repeat-x scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+#container {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 740px;
+}
+#leftarrow {
+    background-image: url("http://www.qwantz.com/leftarrow.png");
+    background-position: 0 0;
+    display: block;
+    height: 70px;
+    width: 70px;
+}
+#leftarrow:hover {
+    background-position: 0 -70px;
+}
+#rightarrow {
+    background-image: url("http://www.qwantz.com/rightarrow.png");
+    background-position: 0 0;
+    display: block;
+    height: 70px;
+    width: 70px;
+}
+#rightarrow:hover {
+    background-position: 0 -70px;
+}
+.arrowholder {
+    display: table-cell;
+    height: 500px;
+    vertical-align: middle;
+    width: 70px;
+}
+#comicnavbox {
+    border: medium none;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 500px;
+    padding: 0;
+    position: relative;
+    width: 845px;
+}
+#comic {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 solid;
+    float: left;
+    margin: 0 auto;
+    min-width: 735px;
+}
+#previous, #date, #next {
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+#previous {
+    width: 15%;
+}
+#date {
+    font-size: 10px;
+    left: 0;
+    text-align: center;
+    width: 69%;
+}
+#next {
+    left: 0;
+    text-align: right;
+    width: 15%;
+}
+#socialnetworks {
+    border: 0 solid;
+    display: block;
+    font-size: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#heylookitsme {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.socialnetworkimage {
+    border: medium none;
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+}
+.greenline {
+    border: 3px solid #00AA00;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 100px;
+}
+#blogpost, #blogpostheader, #blogpost2, #blogpost2header, #sidebar, #sidebarheader, #sharebox, #shareboxheader, #shirtad, #shirtadheader, #twitterbox, #twitterboxheader {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 3px solid #00AA00;
+    display: block;
+    float: left;
+    font-size: 12px;
+    text-align: left;
+    width: 555px;
+}
+.sharebox {
+    border: medium none;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    float: left;
+    font-size: 0.625em;
+    margin: 5px;
+    min-height: 93px;
+    padding: 2px 5px 0;
+}
+.merchad {
+    border: medium none;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    float: left;
+    height: 95px;
+    margin: 5px;
+    padding: 0;
+    width: 161px;
+}
+.feedicon {
+    border: medium none;
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+}
+.shareicon {
+    border: medium none;
+    height: 32px;
+    vertical-align: middle;
+    width: 32px;
+}
+#sidebar {
+    background-color: #FFFFFF;
+    border: 3px solid #B57100;
+    float: right;
+    height: 655px;
+    text-align: center;
+    width: 160px;
+}
+#twitterbox {
+    border: 3px solid #415D7D;
+}
+#blogpost, #blogpost2, #shirtad, #twitterbox {
+    float: left;
+    margin-bottom: 10px;
+}
+#blogpost2 {
+    border: 3px solid #415D7D;
+    float: left;
+}
+#shirtad {
+    border: 3px solid #000000;
+}
+#blogpostheader, #blogpost2header, #sidebarheader, #shareboxheader, #shirtadheader, #twitterboxheader {
+    background: none repeat scroll 0 0 #42C700;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#sidebarheader {
+    background: none repeat scroll 0 0 #D69221;
+    float: none;
+}
+#blogpost2header {
+    background: none repeat scroll 0 0 #628EBE;
+}
+#shareboxheader {
+    background: none repeat scroll 0 0 #415D7D;
+}
+#shirtadheader {
+    background: none repeat scroll 0 0 #000000;
+}
+#twitterboxheader {
+    background: none repeat scroll 0 0 #628EBE;
+}
+.padded {
+    margin: 35px 10px 5px;
+}
+.bold {
+    font-weight: bold;
+}
+#header {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 solid #444444;
+    margin: 0 auto;
+    width: 740px;
+}
+#winterfooterbg {
+    background-image: url("http://www.qwantz.com/winterbg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#winterfooter {
+    background-image: url("http://www.qwantz.com/winter2.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#winterfooterbg2 {
+    background-image: url("http://www.qwantz.com/winterbg3.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#winterfooter2 {
+    background-image: url("http://www.qwantz.com/winter3.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#winterfooterbg3 {
+    background-image: url("http://www.qwantz.com/winter4bg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#winterfooter3 {
+    background-image: url("http://www.qwantz.com/winter4.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#fallfooterbg {
+    background-image: url("http://www.qwantz.com/fallbg4.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#fallfooter {
+    background-image: url("http://www.qwantz.com/fall1.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#fallfooterbg2 {
+    background-image: url("http://www.qwantz.com/qwantzlakebg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#fallfooter2 {
+    background-image: url("http://www.qwantz.com/qwantzlake.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#fallfooterbg3 {
+    background-image: url("http://www.qwantz.com/qwantzhalloweenbg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#fallfooter3 {
+    background-image: url("http://www.qwantz.com/qwantzhalloween.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#springfooterbg3 {
+    background-image: url("http://www.qwantz.com/springbg4.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#springfooter3 {
+    background-image: url("http://www.qwantz.com/spring4.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#springfooterbg2 {
+    background-image: url("http://www.qwantz.com/springflowerbg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#springfooter2 {
+    background-image: url("http://www.qwantz.com/springflower.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#springfooterbg {
+    background-image: url("http://www.qwantz.com/springbg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#springfooter {
+    background-image: url("http://www.qwantz.com/itsspring2.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#spacefooterbg {
+    background-image: url("http://www.qwantz.com/spacebg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#spacefooter {
+    background-image: url("http://www.qwantz.com/space.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#summerfooterbg {
+    background-image: url("http://www.qwantz.com/bikinibg2.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#summerfooter {
+    background-image: url("bikini2.jpg");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#summerfooterbg2 {
+    background-image: url("http://www.qwantz.com/qwantzroadtripbg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#summerfooter2 {
+    background-image: url("qwantzroadtrip4.jpg");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#summerfooterbg3 {
+    background-image: url("http://www.qwantz.com/qwantzsummernightbg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#summerfooter3 {
+    background-image: url("http://www.qwantz.com/qwantzsummernight.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#summerfooterbg4 {
+    background-image: url("http://www.qwantz.com/summer2bg.png");
+    background-repeat: repeat-x;
+    float: left;
+    height: 96px;
+    margin-top: 40px;
+    width: 100%;
+}
+#summerfooter4 {
+    background-image: url("http://www.qwantz.com/summer2.png");
+    background-repeat: repeat-x;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+#bgclouds {
+    background-image: url("http://www.qwantz.com/bgclouds.png");
+    background-repeat: repeat-x;
+    height: 440px;
+    position: absolute;
+    top: 360px;
+    width: 100%;
+    z-index: -2;
+}
+.comic {
+    border: medium none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pteranodon {
+    position: absolute;
+    right: 86%;
+    top: 40px;
+    z-index: -1;
+}
+.santa {
+    position: absolute;
+    right: 76%;
+    top: 40px;
+    z-index: -1;
+}
+.rhamphorhynchus {
+    position: absolute;
+    right: 1%;
+    top: 16px;
+    z-index: -1;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.bookheader {
+    margin-bottom: -5px;
+    margin-top: -15px;
+    vertical-align: middle;
+}
+.randomquote, .randomquotemobile, .headertext {
+    border: medium none;
+    color: #306DC8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.randomquotemobile {
+    color: #3370CA;
+}
+.headertext {
+    color: #000000;
+    margin-top: 10px;
+}
+.randomquote a, .headertext a, .topnav a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+.randomquote a:hover, .hovertext a:hover, .topnav a:hover {
+    background-color: #3370CA;
+    color: #FFFFFF;
+}
+.white {
+    color: #FFFFFF;
+}
+.topnav, .topnavmobile {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #306DC8;
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-top: 3px;
+    text-align: center;
+}
+.topnav ul, .topnav li, .topnavmobile ul, .topnavmobile li {
+    display: inline;
+    margin: 0;
+}
+.paddedbullet {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.topnav ul {
+    padding: 0;
+}
+.sidebarlinks, .sidebarlinksdash {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 solid;
+    color: #306DC8;
+    font-size: 10px;
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding: 0;
+    text-align: left;
+}
+.sidebarlinks ul, .sidebarlinks li {
+    display: block;
+}
+.sidebarlinksdash ul, .sidebarlinksdash li {
+    display: inline;
+}
+.sidebarlinksdash li:after {
+    content: " - ";
+}
+.archive {
+    color: #000000;
+    font-size: 14px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.archivemonth {
+    font-size: 21px;
+    font-weight: bold;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.archivemonth li {
+    margin-bottom: 20px;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.archive ul, .archive li {
+    list-style-type: square;
+}
+.archivespaced {
+    padding-top: 25px;
+}
+.shoutoutleft {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 49%;
+}
+.shoutoutright {
+    float: right;
+    width: 49%;
+}
+.sharelink {
+    color: #00689D;
+    display: block;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-decoration: none;
+}
+.small {
+    font-size: 12px;
+}
+.titletext {
+    background: none repeat scroll 0 0 #FFF9BD;
+    border: 1px solid black;
+    display: none;
+    margin: 0 auto;
+    padding: 2px 10px;
+    text-align: left;
+    width: 310px;
+}
+.tiny {
+    font-size: 10px;
+}
+.tinysubmit {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #306DC8;
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+.backendbox {
+    border: 1px solid #999999;
+    width: 100%;
+}
+.twitterlinks {
+    border: medium none;
+}
+.twitterlinks, .twitterlinksdash {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 solid;
+    color: #306DC8;
+    font-size: 10px;
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding: 0;
+    text-align: left;
+}
+.twitterlinks ul, .twitterlinks li {
+    display: block;
+    padding-bottom: 5px;
+}
+.grey {
+    color: #666666;
+    font-size: 10px;
+    font-weight: normal;
+}
+.merchad {
+    transition: all 0.2s ease-in-out 0s;
+}
+.merchad:hover {
+    transform: scale(1.1);
+}
+#cf {
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    width: 735px;
+}
+#cf img {
+    left: 0;
+    position: absolute;
+    transition: opacity 1s ease-in-out 0s;
+}
+#cf img.top:hover {
+    opacity: 0;
+    transition-delay: 1s;
+}
+.panel {
+    float:left;
+}
